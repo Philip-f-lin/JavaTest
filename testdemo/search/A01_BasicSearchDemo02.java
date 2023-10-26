@@ -3,9 +3,9 @@ import java.util.List;
 
 public class A01_BasicSearchDemo02 {
     public static void main(String[] args) {
-        //课堂练习1:
-        //需求：定义一个方法利用基本查找，查询某个元素在数组中的索引
-        //要求：不需要考虑数组中元素是否重复
+        //課堂練習1:
+        //需求：定義一個方法利用基本查找，查詢某個元素在陣列中的索引
+        //要求：不需要考慮數組中元素是否重複
 
         int [] arr = {131, 127, 147, 81, 103, 23, 7, 79};
         int number = 8;
@@ -13,9 +13,9 @@ public class A01_BasicSearchDemo02 {
         //System.out.println(searchDemo(arr, number));
 
 
-        //课堂练习2:
-        //需求：定义一个方法利用基本查找，查询某个元素在数组中的索引
-        //要求：需要考虑数组中元素有重复索引
+        //課堂練習2:
+        //需求：定義一個方法利用基本查找，查詢某個元素在陣列中的索引
+        //需求：需要考慮數組中元素有重複索引
 
         int [] arr1 = {131, 127, 147, 81, 103, 23, 81, 7, 79, 81};
         int number1= 81;
